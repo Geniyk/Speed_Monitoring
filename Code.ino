@@ -1,13 +1,13 @@
 
-#define BLYNK_TEMPLATE_ID "TMPL3o-C2oO-o"
-#define BLYNK_DEVICE_NAME "GPS Module"
-#define BLYNK_AUTH_TOKEN "T7Skc_8VRK10MkSTiPUtFwWPAIRH89mJ"
+#define BLYNK_TEMPLATE_ID "TMPL3o-C2oO-o" //YOUR BLYNK_TEMPLATE_ID 
+#define BLYNK_DEVICE_NAME "GPS Module"   //YOUR BLYNK_DEVICE_NAME
+#define BLYNK_AUTH_TOKEN "T7Skc_8VRK10MkSTiPUtFwWPAIRH89mJ"  //YOUR BLYNK_AUTH_TOKEN
 
 char auth[] = BLYNK_AUTH_TOKEN;
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "Redmi5G";
-char pass[] = "123456788";
+char ssid[] = "*****"; //YOUR HOTSPOT NAME
+char pass[] = "******"; //YOUR HOTSPOT PASSWORD
 
 #define BLYNK_PRINT Serial
 
